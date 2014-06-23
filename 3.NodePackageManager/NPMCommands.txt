@@ -1,0 +1,20 @@
+
+mkdir airline
+cd airline
+npm init //This is initialize a new package.json file for us
+
+
+NPM COMMANDS
+
+npm install -g express 
+npm install -g express-generator
+
+express airline
+
+
+npm prune -- This will remove modules which are their in the project directory but not listed in package.json file
+
+npm update -- This will update modules to their latest versions if the version is decalred as *
+
+FINDING AN NPM
+go to npmjs.org -- search for express
